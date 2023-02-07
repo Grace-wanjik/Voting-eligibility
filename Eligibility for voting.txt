@@ -1,0 +1,12 @@
+//Program to check if a person is eligible for voting
+#include <stdio.h>
+int main(){
+    int age,citizenship;
+    printf("Enter your age and citizenship:");
+    scanf("%d&d",&age,&citizenship);
+    if(age>=18&& citizenship==+254){
+        printf("eligible for voting");}
+    else{
+        printf("Not eligible for voting");}
+    return 0;
+    }
